@@ -123,7 +123,7 @@ resource "aws_instance" "DEV-SERVER" {
     }
 }
 
-output "ec2_publi_ip" {
+output "ec2_public_ip" {
     value = aws_instance.DEV-SERVER.public_ip
   
 }
